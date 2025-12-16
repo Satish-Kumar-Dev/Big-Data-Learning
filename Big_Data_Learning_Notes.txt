@@ -1,0 +1,37 @@
+=========================== Big Data ===========================
+1. What is Big Data?
+Ans: Big Data is the large set of data where we can't handle the data in traditional methods.
+	Big data is a So large, fast or complex which is difficult to process using traditionalm methods.
+	Size of Big data is form GB's to PB's where TB = Tera Bytes and PB = Peta Bytes
+	Big Data comes from : 
+		1: Social Media
+		2: E-commerce
+		3: Banks, Credit card trasactions etc.,
+	Importance of Big Data:
+		1: Time Reduction
+		2: Analysis of Big Data
+		3: Cost Reduction
+		4: Smart Decision Making
+		
+		
+2: 7 V's of Big Data?
+Ans: 1. Volume: Volume of the data
+	 2. Velocity: Speed of the Response we can Simply say in that way
+	 3. Veriety: Different Structures of the Data like Structured, Unstructured Data and Semi Structured Data
+	 4. Veracity: Data with Ambiguity or Errors. How much the Data is Trustworthy to take
+	 5. Value: Value of the Raw Data
+	 6. Visualisation: Displaying data in the form of charts, graphs, map and similar form of visualisations.
+						To understand the data we need to visualise the data
+	 7. Virality: People to People Network means where nodes are connected directly to one each other.
+					Virality means how fast the data can be shared via people to people network.
+	 
+3: Types of Data under Big Data?
+Ans: 1. Structured Data: The data which is stored, accessed and processed using a fixed method is then it is called a Structured data. 
+		Example: Data form a Relational Database table.
+	 2. Unstructured Data: The Data which don't have any proper format is called a Unstructured data.
+		Example: CC Tv footage, Audio Files etc.,
+	 3. Semi Structured Data: This is the combination of both structured data and unstructured data.
+		Example: JSON files, XML files etc.,
+	
+
+	
