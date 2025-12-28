@@ -2,7 +2,7 @@
 1. What is Big Data?
 Ans: Big Data is the large set of data where we can't handle the data in traditional methods.
 	Big data is a So large, fast or complex which is difficult to process using traditionalm methods.
-	Size of Big data is form GB's to PB's where TB = Tera Bytes and PB = Peta Bytes
+	Size of Big data is form GB's to PB's where TB = Tera Byte and PB = Peta Byte
 	Big Data comes from : 
 		1: Social Media
 		2: E-commerce
@@ -16,12 +16,12 @@ Ans: Big Data is the large set of data where we can't handle the data in traditi
 		
 2: 7 V's of Big Data?
 Ans: 1. Volume: Volume of the data
-	 2. Velocity: Speed of the Response we can Simply say in that way
-	 3. Veriety: Different Structures of the Data like Structured, Unstructured Data and Semi Structured Data
-	 4. Veracity: Data with Ambiguity or Errors. How much the Data is Trustworthy to take
-	 5. Value: Value of the Raw Data
+	 2. Velocity: Speed of Big Data Generation
+	 3. Veriety: Different Structures of the Data like Structured, Unstructured Data and Semi Structured Data.
+	 4. Veracity: Data with Ambiguity or Errors. How much the Data is Trustworthy to take(Trustworthyness of Data).
+	 5. Value: Value of the Raw Data.(Etracting value from Raw Data).
 	 6. Visualisation: Displaying data in the form of charts, graphs, map and similar form of visualisations.
-						To understand the data we need to visualise the data
+						To understand the data we need to visualise the data.
 	 7. Virality: People to People Network means where nodes are connected directly to one each other.
 					Virality means how fast the data can be shared via people to people network.
 	 
@@ -32,6 +32,100 @@ Ans: 1. Structured Data: The data which is stored, accessed and processed using 
 		Example: CC Tv footage, Audio Files etc.,
 	 3. Semi Structured Data: This is the combination of both structured data and unstructured data.
 		Example: JSON files, XML files etc.,
-	
+		
+		
+4. What is Hadoop?
+Ans: Hadoop is open source framework of tools designed for storage and processing of large size of data(Big Data).
 
+
+5. What is HDFS?
+Ans. HDFS refers to Hadoop Distributed File System. It is used to store and manage the Big Data in a efficient manner. 
+	 It is a Distributed Storage which means, the storage location is distributed over the different places.
+	 
+	 
+6. What is MapReduce in `Hadoop?
+Ans. MapReduce are functions that are used to make parallel process over the Big Data. These functions are used for process the data in a good manner.
+
+
+7.Features of Hadoop?
+Ans. 1. Fault Tolerance : The copy of data is stored in 3 different nodes by default because if we store in a sigle node let's say that node crashed by som issue we cal still have the replicas of the data file stored in other 2 nodes. We can change the default value.
+	 2. Highly Scalable: We can have as many as Slave nodes for our architecture.
+	 3. Easy Programming: Programming will be easy if we know Java.
+	 4. Huge and Flexible Storage: It has more and flixible Storage due to its high Scalability
+	 5. Low cost: It is an open source framework thus it makes it low cost.
+
+
+8. Hadoop Architecture
+Ans. Hadoop Architecture Consists of 2 main things 
+	1. HDFS : As we know what HDFS is we again have 2 things in the HDFS 
+			a. Data Node : This is the place where it contains the Data of the particular Node.
+			b. Name Node: This is contained in the master node where it keeps information about which data on which node.
+	2. Map Reduce: These are the functions which are used for massive Parallel Processing of Data. It contains 2 more things according to the Hadoop Architecture.
+			a. Job Tracker: This breaks the biggest part of the tasks into smaller pieces of tasks in a master node.
+			b. Task Tracker: Task Tracker is the smaller pieces of tasks that is divided by the Job Tracker and it process the data that is present in its node.
+
+	Above all comes under Hadoop Architecture.
+
+
+9. HDFS(Hadoop Distributed File System) Architecture?
+Ans: As we discussed in the previous question HDFS contains 2 important things.
+		1. Name Node : It contains the information of slave nodes and which data it contains.
+			It also helps with the fault tolerance of the files generated like in which nodes it needs to to be stored and all.
+		2. Data Node: It contains the data of a particular node.
+
+
+10. Hadoop Ecosystem?
+Ans: Hadoop Ecosystem consists of 9 things
+	1. HDFS
+	2. MapReduce
+	3. Flume: It is an open source tool used for data ingestion in HDFS.
+	4. Hive: It is ah open source datawareshouse which is used to analyse, summarize and querying the large data sets that are stored in the Hadoop files. It uses HQL for querying the data
+	5. HBase: It is distributed column based database that is built on top of the hadoop file system. It is designed to provide the quick ransom access to the huge amount of data.
+	6. Mahout: It is used to perform complex operations of Machine Learning like Recommendation, classification and clustering.
+	7. Pig: It is a a language that is used for programming.
+	8. Sqoop: Imports structured data from the RDBMS to HDFS and exports data from HDFS to RDBMS.
+	9. Zookeeper: It is used to maintain all the above points to perform properly in the Hadoop Architecture.
 	
+	
+11. Distributed File System?
+Ans. Distributed File system is like a hardware that has Cluster in it and in cluster the memory will be divided into different nodes.
+
+
+12. Map Reduce in-depth?
+Ans. It is mainly used as massive parallel processing techinque for processing data. It is dependent on the 2 more things. They are
+		1. Job Tracker: It has 2 tasks
+			a) Scheduling an monitoring tasks and
+			b) Providing Resources.
+		2: Task Tracker: It is for processing the task.
+			functional steps of Task Tracker: 
+				a) Splitting : It split the input file into different parts.
+				b) Mapping: It divides the data into key value pairs.
+				c) Shufling: It shuffles the data according to the condition.
+				d) Reducing: It reduces the data which we want and provides the final result.
+
+
+13.  SQL vs NoSQL 
+Ans. Comparing them with the features.
+	Features: 
+		1. Relational Model: 
+			a) SQL follows the relational model like arraringing data into table format
+			b) NoSQL doesn't follow the Relational model.
+		2. Provides Share Nothing Environment: 
+			a) SQL does not supports the share nothing environment.
+			b) NoSQL supports the SHare Nothing environment which means the data can be distributed to different nodes.
+		3. Scalability: 
+			a) Scalability is less for SQL because it uses vertical scaling.
+			b) Scalability is more for NoSQL because it uses horizontal scaling.
+		4. Cost: 
+			a) SQL is costly
+			b) NoSQL is less than the SQL.
+		5. Fatser Performance: 
+			a) Performance of the SQL is slower than NoSQL.
+			b) NoSQL has faster performance
+		6. Examples:
+			a) Mysql is the example for SQL
+			b) GraphQL is example for NoSQL
+		
+		
+14. CAP Theorem?
+Ans. CAP refers to --> Consistency, Availability and Partition Tolerant
